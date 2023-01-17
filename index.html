@@ -9,231 +9,228 @@
 
 <body>
     <div class="wrapper">
-        <div class="header">
-            <header class="page-header">
-                <div class="base-container">
-                    <div class="logotype">
-                        <img class="logotype-img" src="img/Quiz-box.svg" width="168" height="27"
-                            alt="Логотип Quiz-box.">
-                    </div>
-                    <nav class="navigation">
-                        <ul class="menu-list">
-                            <li class="menu-item">
-                                <a class="menu-link menu-link-active">Главная</a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="#">Игры</a>
-                            </li>
-                            <li class="menu-item">
-                                <a class="menu-link" href="#">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
+        <header class="header">
+            <div class="container">
+                <div class="logotype">
+                    <img class="logotype__img" src="img/quiz-box.svg" alt="Логотип Quiz-box.">
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--active">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Игры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <adress class="contacts">
                     <div class="phone">
-                        <span class="visually-hidden">Номер телефона</span>
-                        <p class="contact-phone-number">8 800 700 30 30</p>
+                        <a href="tel:88007003030" class="phone__number">8 800 700 30 30</a>
                     </div>
                     <div class="work-schedule">
-                        <button class="work-schedule-open">График работы</button>
-                        <div class="work-schedule-content">
-                            <p class="work-schedule-text">пн-вс: 09:00 - 20:00</p>
-                            <p class="work-schedule-break">Обед: 14:00-14:30</p>
-                        </div>
+                        <button class="work-schedule__open">График работы</button>
                     </div>
-                </div>
-            </header>
-        </div>
+                </adress>
+            </div>
+        </header>
         <main class="main-index">
             <section class="promo">
-                <h1 class="promo-title base-title">Интеллектуальный вечер для шумной компании</h1>
-                <p class="promo-text base-text">Игры на любой вкус</p>
-                <button type="button" class="base-button button-light-purple">Подробнее</button>
+                <h1 class="promo__title base-title">Интеллектуальный вечер для шумной компании</h1>
+                <p class="promo__text">Игры на любой вкус</p>
+                <button type="button" class="base-button base-button--light-purple">Подробнее</button>
             </section>
 
             <section class="new-products">
-                <h2 class="new-products-title base-title">Новинки недели</h2>
-                <img class="new-img" src="img/new.svg" width="42" height="42">
-                <ul class="new-products-list">
-                    <li class="new-products-item">
-                        <div class="new-product-card">
-                            <img class="new-products-item-img" src="img/music-quiz.jpg" width="362" height="144"
-                                alt="Обложка викторины.">
+                <h2 class="new-products__title base-title">
+                    Новинки недели
+                    <img class="new-img" src="img/new.svg">
+                </h2>
+                <ul class="new-products__list">
+                    <li class="new-products__item">
+                        <div class="new-products__cover-box">
+                            <img class="new-products__img" src="img/music-quiz.jpg" alt="Обложка викторины.">
+                        </div>
+                        <div class="new-products__content">
                             <h3 class="new-products-item-title">Музыкальная игра</h3>
-                            <h4 class="visually-hidden">Время игры</h4>
-                            <img class="new-products-item-clock" src="img/clock.svg" width="26" height="26"
-                                alt="Изображение часов.">
-                            <p class="new-products-item-description">90 минут</p>
-                            <h4 class="visually-hidden">Количество вопросов</h4>
-                            <img class="new-products-item-qa" src="img/qa.svg" width="26" height="26"
-                                alt="Изображение вопрос/ответ.">
-                            <p class="new-products-item-description">70 вопросов</p>
-                            <p class="new-products-item-text">Равным образом постоянное обеспечение нашей деятельности
-                                позволяет оценить
-                                значение систем массового участия.</p>
-                            <button type="button" class="base-button button-white">Смотреть</button>
+                            <ul class="new-products__features">
+                                <li class="new-products__feature feature">
+                                    <div class="feature__icon-box">
+                                        <img class="feature__icon" src="img/clock.svg" alt="Изображение часов.">
+                                        <p class="feature__text">90 минут</p>
+                                    </div>
+                                </li>
+                                <li class="new-products__feature feature">
+                                    <div class="feature__icon-box">
+                                        <img class="feature__icon" src="img/qa" alt="Изображение вопрос/ответ.">
+                                        <p class="feature__text">70 вопросов</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="new-products__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                            <button type="button" class="base-button base-button--theme-white">Смотреть</button>
                         </div>
                     </li>
-                    <li class="new-products-item">
-                        <div class="new-product-card">
-                            <img class="new-products-item-img" src="img/back-to-90.png" width="310" height="136"
-                                alt="Обложка викторины.">
+                    <li class="new-products__item">
+                        <div class="new-products__cover-box">
+                            <img class="new-products__img" src="img/back-to-90.png" alt="Обложка викторины.">
+                        </div>
+                        <div class="new-products__content">
                             <h3 class="new-products-item-title">Назад в 90-е</h3>
-                            <h4 class="visually-hidden">Время игры</h4>
-                            <img class="new-products-item-clock" src="img/clock.svg" width="26" height="26"
-                                alt="Изображение часов.">
-                            <p class="new-products-item-description">90 минут</p>
-                            <h4 class="visually-hidden">Количество вопросов</h4>
-                            <img class="new-products-item-qa" src="img/qa.svg" width="26" height="26"
-                                alt="Изображение вопрос/ответ.">
-                            <p class="new-products-item-description">70 вопросов</p>
-                            <p class="new-products-item-text">Равным образом постоянное обеспечение нашей деятельности
-                                позволяет оценить
-                                значение систем массового участия.</p>
-                            <button type="button" class="base-button button-purple">Смотреть</button>
+                            <ul class="new-products__features">
+                                <li class="new-products__feature feature">
+                                    <div class="feature__icon-box">
+                                        <img class="feature__icon" src="img/clock.svg" alt="Изображение часов.">
+                                        <p class="feature__text">90 минут</p>
+                                    </div>
+                                </li>
+                                <li class="new-products__feature feature">
+                                    <div class="feature__icon-box">
+                                        <img class="feature__icon" src="img/qa" alt="Изображение вопрос/ответ.">
+                                        <p class="feature__text">70 вопросов</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="new-products__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                            <button type="button" class="base-button base-button--theme-white">Смотреть</button>
                         </div>
                     </li>
-                    <li class="new-products-item">
-                        <div class="new-product-card">
-                            <img class="new-products-item-img" src="img/it-quiz.png" width="321" height="143"
-                                alt="Обложка викторины.">
-                            <h3 class="new-products-item-title base-title">IT-викторина</h3>
-                            <h4 class="visually-hidden">Время игры</h4>
-                            <img class="new-products-item-clock" src="img/clock.svg" width="26" height="26"
-                                alt="Изображение часов.">
-                            <p class="new-products-item-description">90 минут</p>
-                            <h4 class="visually-hidden">Количество вопросов</h4>
-                            <img class="new-products-item-qa" src="img/qa.svg" width="26" height="26"
-                                alt="Изображение вопрос/ответ.">
-                            <p class="new-products-item-description">70 вопросов</p>
-                            <p class="new-products-item-text base-text">Равным образом постоянное обеспечение нашей
-                                деятельности позволяет оценить
-                                значение систем массового участия.</p>
-                            <button type="button" class="base-button button-white">Смотреть</button>
+                    <li class="new-products__item">
+                        <div class="new-products__cover-box">
+                            <img class="new-products__img" src="img/it-quiz.png" alt="Обложка викторины.">
+                        </div>
+                        <div class="new-products__content">
+                            <h3 class="new-products-item-title">IT-викторина</h3>
+                            <ul class="new-products__features">
+                                <li class="new-products__feature feature">
+                                    <div class="feature__icon-box">
+                                        <img class="feature__icon" src="img/clock.svg" alt="Изображение часов.">
+                                        <p class="feature__text">90 минут</p>
+                                    </div>
+                                </li>
+                                <li class="new-products__feature feature">
+                                    <div class="feature__icon-box">
+                                        <img class="feature__icon" src="img/qa" alt="Изображение вопрос/ответ.">
+                                        <p class="feature__text">70 вопросов</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="new-products__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
+                            <button type="button" class="base-button base-button--theme-white">Смотреть</button>
                         </div>
                     </li>
                 </ul>
             </section>
 
             <section class="past-games">
-                <h2 class="past-games-title base-title">Прошедшие игры</h2>
-                <ul class="past-games-list">
-                    <li class="past-games-item">
-                        <div class="past-games-card">
-                            <p class="past-games-item-date base-text">1 января</p>
-                            <h3 class="past-games-item-title base-title">Новогодний квиз</h3>
-                            <p class="past-games-item-text base-text">Успевайте забронировать даты. Пока еще есть места
-                                на декабрь. Удачи и
-                                всех благ!</p>
+                <h2 class="past-games__main-title base-title">Прошедшие игры</h2>
+                <ul class="past-games__list">
+                    <li class="past-games__item">
+                        <img class="past-games__cover" src="img/new-year-quiz.jpg" alt="Фото с игры.">
+                        <div class="past-games__card">
+                            <p class="past-games__date">1 января</p>
+                            <h3 class="past-games__title base-title">Новогодний квиз</h3>
+                            <p class="past-games__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
                         </div>
                     </li>
-                    <li class="past-games-item">
-                        <div class="past-games-card">
-                            <p class="past-games-item-date base-text">8 марта</p>
-                            <h3 class="past-games-item-title base-title">Весенняя игра</h3>
-                            <p class="past-games-item-text base-text">Успевайте забронировать даты. Пока еще есть места
-                                на март. Удачи и
-                                всех благ!</p>
+                    <li class="past-games__item">
+                        <img class="past-games__cover" src="img/spring-game.jpg" alt="Фото с игры.">
+                        <div class="past-games__card">
+                            <p class="past-games__date">8 марта</p>
+                            <h3 class="past-games__title base-title">Весенняя игра</h3>
+                            <p class="past-games__text">Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!</p>
                         </div>
                     </li>
                 </ul>
-                <div class="past-games-pages">
-                    <p class="past-games-active-page base-text">Страница 1 из 7</p>
-                    <ul class="past-games-pages-list">
-                        <li class="past-games-page">
-                            <a class="past-games-page-link active-page-link" href="#">1</a>
+                <div class="pages">
+                    <p class="pages__info">Страница 1 из 7</p>
+                    <ul class="pages__list">
+                        <li class="pages__item">
+                            <a class="pages__link pages__link--active" href="#">1</a>
                         </li>
-                        <li class="past-games-page">
-                            <a class="past-games-page-link" href="#">2</a>
+                        <li class="pages__item">
+                            <a class="pages__link" href="#">2</a>
                         </li>
-                        <li class="past-games-page">
-                            <a class="past-games-page-link" href="#">3</a>
+                        <li class="pages__item">
+                            <a class="pages__link" href="#">3</a>
                         </li>
-                        <li class="past-games-page">
-                            <a class="past-games-page-link" href="#">4</a>
+                        <li class="pages__item">
+                            <a class="pages__link" href="#">4</a>
                         </li>
-                        <li class="past-games-page">
-                            <a class="past-games-page-link" href="#">5</a>
+                        <li class="pages__item">
+                            <a class="pages__link" href="#">5</a>
                         </li>
-                        <li class="past-games-page">
-                            <a class="past-games-page-link" href="#">6</a>
+                        <li class="pages__item">
+                            <a class="pages__link" href="#">6</a>
                         </li>
-                        <li class="past-games-page">
-                            <a class="past-games-page-link" href="#">7</a>
+                        <li class="pages__item">
+                            <a class="pages__link" href="#">7</a>
                         </li>
                     </ul>
                 </div>
             </section>
- 
+
             <section class="about-us">
-                <img class="about-us-img" src="img/about-us-game-photo.jpg" width="489" height="505"
-                    alt="Фото процесса игры.">
-                <img class="about-us-background-img" src="img/about-us-background.jpg" width="785" height="455"
-                    alt="Градиент-фон.">
-                <h2 class="about-us-title base-title">О нас</h2>
-                <p class="about-us-text base-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                    сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему
-                    оратору отточить навык публичных выступлений в домашних условиях.</p>
-                <button type="button" class="base-button button-white">Подробнее</button>
+                <div class="about-us__decor">
+                    <img class="about-us-img" src="img/about-us-game-photo.jpg" alt="Фото процесса игры.">
+                </div>
+                <div class="about-us__content">
+                    <h2 class="about-us__title base-title">О нас</h2>
+                    <p class="about-us__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+                    <button type="button" class="base-button base-button--white">Подробнее</button>
+                </div>
             </section>
         </main>
 
-        <footer class="page-footer">
-            <img class="logotype" src="img/Quiz-box.svg" width="168" height="27" alt="Логотип Quiz-box.">
-            <nav class="navigation">
-                <ul class="menu-list">
-                    <li class="menu-item">
-                        <a class="menu-link menu-link-active">Главная</a>
+        <footer class="footer">
+            <img class="logotype" src="img/quiz-box.svg" alt="Логотип Quiz-box.">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link--active">Главная</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#">Игры</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Игры</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link" href="#">Отзывы</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Отзывы</a>
                     </li>
                 </ul>
             </nav>
 
-            <div class="footer-contacts">
-                <section class="social-network">
-                    <ul class="social-network-list">
-                        <li class="social-network-item">
-                            <a class="social-network-link" href="#">
-                                <span class="visually-hidden">Телеграм</span>
-                                <img class="social-network-logo" src="img/telegram.svg" width="36" height="36"
-                                    alt="Телеграм">
-                            </a>
-                        </li>
-                        <li class="social-network-item">
-                            <a class="social-network-link" href="#">
-                                <span class="visually-hidden">Вконтакте</span>
-                                <img class="social-network-logo" src="img/vk.svg" width="36" height="36"
-                                    alt="Вконтакте">
-                            </a>
-                        </li>
-                        <li class="social-network-item">
-                            <a class="social-network-link" href="#">
-                                <span class="visually-hidden">Фейсбук</span>
-                                <img class="social-network-logo" src="img/fb.svg" width="36" height="36" alt="Фейсбук">
-                            </a>
-                        </li>
-                        <li class="social-network-item">
-                            <a class="social-network-link" href="#">
-                                <span class="visually-hidden">Инстаграм</span>
-                                <img class="social-network-logo" src="img/instagram.svg" width="36" height="36"
-                                    alt="Инстаграм">
-                            </a>
-                        </li>
-                    </ul>
-                </section>
+            <ul class="social-network">
+                <li class="social-network__item">
+                    <a class="social-network__link" href="#">
+                        <img class="social-network__logo" src="img/telegram.svg" alt="Телеграм">
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a class="social-network__link" href="#">
+                        <img class="social-network__logo" src="img/vk.svg" alt="Вконтакте">
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a class="social-network__link" href="#">
+                        <img class="social-network__logo" src="img\facebook.svg" alt="Фейсбук">
+                    </a>
+                </li>
+                <li class="social-network__item">
+                    <a class="social-network__link" href="#">
+                        <img class="social-network__logo" src="img/instagram.svg" alt="Инстаграм">
+                    </a>
+                </li>
+            </ul>
 
-                <section class="contact-phone">
-                    <p class="contact-phone-text">Бесплатный звонок по России</p>
-                    <span class="visually-hidden">Номер телефона</span>
-                    <p class="contact-phone-number">8 800 700 30 30</p>
-                </section>
-            </div>
+            <address class="contacts">
+                <p class="contacts__info">Бесплатный звонок по России</p>
+                <div class="phone">
+                    <a href="tel:88007003030" class="phone__number">8 800 700 30 30</a>
+                </div>
+            </address>
         </footer>
-
     </div>
 </body>
 

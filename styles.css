@@ -155,7 +155,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     line-height: 1.1;
     margin-bottom: -9px;
-    letter-spacing: 2px;
 }
 
 .promo__text {
@@ -189,7 +188,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-bottom: 45px;
     position: relative;
-    letter-spacing: 2px;
 }
 
 .new-products__title-img {
@@ -238,7 +236,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 17px;
-    letter-spacing: 1.2px;
 }
 
 .new-products__features {
@@ -350,7 +347,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: -13px;
-    letter-spacing: 1.2px;
 }
 
 .past-games__text {
@@ -422,7 +418,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 38px;
-    letter-spacing: 1.2px;
 }
 
 .about-us__text {

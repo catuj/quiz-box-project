@@ -1,0 +1,503 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.42;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+
+.main-page {
+    background: url("/img/top-backgr.png") center top no-repeat, url("/img/bottom-backgr.png") center bottom 145px no-repeat;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 81px;
+}
+
+.logotype {
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
+
+.footer__logotype {
+    display: block;
+    position: absolute;
+    top: 52px;
+    left: 0;
+}
+
+.menu {
+    position: relative;
+    top: 25px;
+    left: 380px;
+}
+
+.footer__menu {
+    position: absolute;
+    top: 46px;
+    right: 563px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 65px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu__link:hover {
+    color: #8F00FF;
+}
+
+.contacts {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    font-style: normal;
+    text-align: right;
+}
+
+.footer__contacts {
+    position: absolute;
+    top: 37px;
+    right: 12px;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__info {
+    font-size: 11px;
+    color: #9a9a9a;
+    margin-bottom: 3px;
+}
+
+.phone__number {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.work-schedule {
+    position: relative;
+    color: #98A4A8;
+    font-size: 13px;
+    text-decoration: underline;
+    top: -7px;
+    right: 1px;
+}
+
+.work-schedule:hover {
+    color: #FFFFFF;
+}
+
+.promo {
+    width: 645px;
+}
+
+.promo__title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: -9px;
+    letter-spacing: 2px;
+}
+
+.promo__text {
+    font-size: 21px;
+    margin-bottom: 73px;
+}
+
+.base-button--light-purple {
+    background: #8F00FF;
+    border-radius: 4px;
+    border: 0;
+    padding: 18px 39px;
+    color:#FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 199px;
+}
+
+.base-button--light-purple:hover {
+    background: #741BBA;
+}
+
+.new-products {
+    margin-bottom: 127px;
+}
+
+.new-products__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.new-products__title-img {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.new-products__list {
+    margin-left: -41px;
+}
+
+.new-products__item {
+    min-height: 449px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 25px;
+    width: 360px;
+}
+
+.new-products__item:last-child {
+    margin-right: 0;
+}
+
+.new-products__cover-box {
+    background: #010101;
+    height: 144px;
+    margin-bottom: 10px;
+}
+
+.cover-box-purple {
+    background: #150a18;
+}
+
+.new-products__img-half {
+    margin-left: 24px;
+}
+
+.new-products__content {
+    padding: 26px 22px;
+    color: #000000;
+}
+
+.new-products__item-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    letter-spacing: 1.2px;
+}
+
+.new-products__features {
+    margin-left: -40px;
+    margin-bottom: 17px;
+}
+
+.new-products__feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 115px;
+    margin-right: 39px;
+    margin-bottom: 3px;
+}
+
+.new-products__feature:last-child {
+    margin-right: 0;
+}
+
+.feature__icon-box {
+    width: 26px;
+    float: left;
+}
+
+.feature__text {
+    position: absolute;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 1px;
+    margin-left: 37px;
+}
+
+.new-products__text {
+    margin-bottom: 25px;
+}
+
+.base-button--theme-white {
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-color: #8F00FF;
+    padding: 18px 29px;
+    color: #8F00FF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.base-button--theme-purple {
+    border-radius: 4px;
+    background: #8F00FF;
+    border:#8F00FF;
+    padding: 18px 29px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.base-button--theme-white:hover {
+    background: #8F00FF;
+    color: #FFFFFF;
+}
+
+.past-games__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 46px;
+    letter-spacing: 2px;
+}
+
+.past-games__list {
+    margin-left: -40px;
+    margin-bottom: 38px;
+}
+
+.past-games__item {
+    width: 560px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.past-games__cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.past-games__card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 27px 8px;
+    min-height: 140px;
+}
+
+.past-games__date {
+    margin-bottom: 13px;
+}
+
+.past-games__item-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -13px;
+    letter-spacing: 1.2px;
+}
+
+.past-games__text {
+    font-size: 16px;
+}
+
+.pages {
+    text-align: center;
+    margin-bottom: 127px;
+}
+
+.pages__info,.pages__list {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.pages__info {
+    margin-right: 10px;
+}
+
+.pages__list {
+    padding-left: 10px;
+}
+
+.pages__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pages__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 32px;
+}
+
+.pages__link:hover {
+    background: #8F00FF;
+}
+
+.about-us::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 489px;
+    height: 505px;
+    background: url("./img/about-us-game-photo.jpg") center center / cover no-repeat;
+    border-radius: 4px;
+}
+
+.about-us__content {
+    background: url("./img/about-us-background.jpg") center center / cover no-repeat;
+    padding: 70px 80px;
+    display: inline-block;
+    vertical-align: top;
+    width: 785px;
+    height: 455px;
+    margin-left: -141px;
+    margin-top: 99px;
+    border-radius: 4px;
+    margin-bottom: 53px;
+}
+
+.about-us__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 38px;
+    letter-spacing: 1.2px;
+}
+
+.about-us__text {
+    margin-bottom: 39px;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.about-us__text p {
+    margin-bottom: 20px;
+}
+
+.about-us__text p:last-child {
+    margin-bottom: 0;
+}
+
+.base-button--white {
+    border-radius: 4px;
+    background: none;
+    border-color: #FFFFFF;
+    padding: 18px 39px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__content {
+    border-top: 1px solid #353538;
+}
+
+.footer {
+    height: 146px;
+    position: relative;
+}
+
+.socials {
+    top: 40px;
+    right: 263px;
+    position: absolute;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item-icon-tg .socials__link {
+    background-image: url("/img/telegram.svg");
+}
+
+.socials__item-icon-tg .socials__link:hover {
+    background-image: url("/img/telegram-hover.svg");
+}
+
+.socials__item-icon-vk .socials__link {
+    background-image: url("/img/vk.svg");
+}
+
+.socials__item-icon-vk .socials__link:hover {
+    background-image: url("/img/vk-hover.svg");
+}
+
+.socials__item-icon-fb .socials__link {
+    background-image: url("/img/facebook.svg");
+}
+
+.socials__item-icon-fb .socials__link:hover {
+    background-image: url("/img/facebook-hover.svg");
+}
+
+.socials__item-icon-insta .socials__link {
+    background-image: url("/img/instagram.svg");
+}
+
+.socials__item-icon-insta .socials__link:hover {
+    background-image: url("/img/instagram-hover.svg");
+}

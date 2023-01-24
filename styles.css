@@ -36,10 +36,6 @@ a {
     background: url("img/top-backgr.png") center top no-repeat, url("img/bottom-backgr.png") center bottom 145px no-repeat;
 }
 
-.wrapper {
-    
-}
-
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -209,9 +205,6 @@ p {
     vertical-align: middle;
 }
 
-.new-products__list {
-}
-
 .new-products__item {
     min-height: 449px;
     background: #FFFFFF;
@@ -370,9 +363,6 @@ p {
 
 .pages__info {
     margin-right: 21px;
-}
-
-.pages__list {
 }
 
 .pages__item {

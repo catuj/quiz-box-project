@@ -483,35 +483,35 @@ p {
 }
 
 .socials__item-icon-tg .socials__link {
-    background-image: url("/img/telegram.svg");
+    background-image: url("img/telegram.svg");
 }
 
 .socials__item-icon-tg .socials__link:hover {
-    background-image: url("/img/telegram-hover.svg");
+    background-image: url("img/telegram-hover.svg");
 }
 
 .socials__item-icon-vk .socials__link {
-    background-image: url("/img/vk.svg");
+    background-image: url("img/vk.svg");
 }
 
 .socials__item-icon-vk .socials__link:hover {
-    background-image: url("/img/vk-hover.svg");
+    background-image: url("img/vk-hover.svg");
 }
 
 .socials__item-icon-fb .socials__link {
-    background-image: url("/img/facebook.svg");
+    background-image: url("img/facebook.svg");
 }
 
 .socials__item-icon-fb .socials__link:hover {
-    background-image: url("/img/facebook-hover.svg");
+    background-image: url("img/facebook-hover.svg");
 }
 
 .socials__item-icon-insta .socials__link {
-    background-image: url("/img/instagram.svg");
+    background-image: url("img/instagram.svg");
 }
 
 .socials__item-icon-insta .socials__link:hover {
-    background-image: url("/img/instagram-hover.svg");
+    background-image: url("img/instagram-hover.svg");
 }
 
 .footer__contacts {

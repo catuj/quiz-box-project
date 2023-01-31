@@ -2,12 +2,12 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("./fonts/OpenSans-Regular.woff") format("woff");
+    src: url("../../fonts/OpenSans-Regular.woff") format("woff");
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("./fonts/OpenSans-Bold.woff") format("woff");
+    src: url("../../fonts/OpenSans-Bold.woff") format("woff");
 }

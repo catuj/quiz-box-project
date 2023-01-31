@@ -1,0 +1,55 @@
+.services {
+    margin-bottom: 60px;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 42px;
+}
+
+.service:last-child {
+    margin-bottom: 0;
+}
+
+.service__img-box {
+    width: 40%;
+    margin-right: 5.2%;
+}
+
+.service__img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.service__content {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service__title {
+    font-weight: bold;
+    line-height: 49px;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.service__text {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 35px;
+}
+
+.services__pages .pages__info {
+    padding-left: 31px;
+}
+
+.services__pages .pages__link:hover {
+    background: #8F00FF;
+    color: #FFFFFF;
+}
+
+.services__pages .pages__link--active {
+    background: #8F00FF;
+    color: #FFFFFF;
+}

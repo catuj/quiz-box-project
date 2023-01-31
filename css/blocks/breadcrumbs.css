@@ -1,0 +1,30 @@
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item::after {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    content: "/";
+    color: rgba(154, 154, 154, 1);
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    line-height: 19px;
+    color: rgba(154, 154, 154, 1);
+}
+
+.breadcrumbs__link--active {
+    font-weight: bold;
+}

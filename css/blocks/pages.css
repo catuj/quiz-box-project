@@ -1,0 +1,37 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages__info,.pages__list {
+    font-size: 16px;
+}
+
+.pages__info {
+    margin-right: 30px;
+}
+
+.pages__list {
+    display: flex;
+    justify-content: center;
+}
+
+.pages__item {
+    text-align: center;
+    margin-right: 1px;
+}
+
+.pages__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 34px;
+}
+
+.pages__link:hover {
+    background: #8F00FF;
+}

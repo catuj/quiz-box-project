@@ -1,0 +1,17 @@
+.feature__icon-box {
+    width: 26px;
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.feature__icon {
+    display: block;
+}
+
+.feature__text {
+    font-size: 16px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}

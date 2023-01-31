@@ -1,0 +1,19 @@
+.promo {
+    margin-bottom: 192px;
+}
+
+.promo__content {
+    width: 57%;
+}
+
+.promo__title {
+    font-size: 60px;
+    line-height: 1.07;
+    margin-bottom: 21px;
+}
+
+.promo__text {
+    font-size: 21px;
+    line-height: 29px;
+    margin-bottom: 76px;
+}

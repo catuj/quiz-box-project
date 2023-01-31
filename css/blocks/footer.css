@@ -1,0 +1,31 @@
+.footer__content {
+    border-top: 1px solid #353538;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0 48px;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logotype {
+    margin-right: 131px;
+}
+
+.footer-inner {
+    padding-top: 8px;
+    margin-top: auto;
+    height: 132px;
+}
+
+.footer__content-inner {
+    border-top: 0;
+    padding: 42px 0 26px;
+}

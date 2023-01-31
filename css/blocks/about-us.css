@@ -1,0 +1,42 @@
+.about-us__container::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 489px;
+    height: 505px;
+    background: url("../../img/about-us-game-photo.jpg") center center / cover no-repeat;
+    border-radius: 4px;
+}
+
+.about-us__content {
+    background: url("../../img/about-us-background.jpg") center center / cover no-repeat;
+    padding: 70px 202px 70px 81px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 785px;
+    min-height: 455px;
+    margin-left: -141px;
+    margin-top: 99px;
+    border-radius: 4px;
+    margin-bottom: 53px;
+}
+
+.about-us__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 38px;
+}
+
+.about-us__text {
+    margin-bottom: 39px;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.about-us__text p {
+    margin-bottom: 20px;
+}
+
+.about-us__text p:last-child {
+    margin-bottom: 0;
+}

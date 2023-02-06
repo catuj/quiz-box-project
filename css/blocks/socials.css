@@ -17,37 +17,147 @@
     text-decoration: none;
     width: 36px;
     height: 36px;
-    background: center center no-repeat;
+    background-color: #17191C;
+    position: relative;
+    border-radius: 50%;
 }
 
-.socials__item-icon-tg .socials__link {
-    background-image: url("img/telegram.svg");
+.socials__item-icon-tg .socials__link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -290px;
+    transition: .3s;
 }
 
-.socials__item-icon-tg .socials__link:hover {
-    background-image: url("img/telegram-hover.svg");
+.socials__item-icon-tg .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -234px;
+    transition: .3s;
+    opacity: 0;
 }
 
-.socials__item-icon-vk .socials__link {
-    background-image: url("img/vk.svg");
+.socials__item-icon-tg .socials__link:hover:before {
+    opacity: 1;
+}
+  
+ .socials__item-icon-tg .socials__link:hover:after {
+    opacity: 0;
 }
 
-.socials__item-icon-vk .socials__link:hover {
-    background-image: url("img/vk-hover.svg");
+ .socials__item-icon-vk .socials__link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -402px;
+    transition: .3s;
 }
 
-.socials__item-icon-fb .socials__link {
-    background-image: url("img/facebook.svg");
+.socials__item-icon-vk .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -346px;
+    transition: .3s;
+    opacity: 0;
 }
 
-.socials__item-icon-fb .socials__link:hover {
-    background-image: url("img/facebook-hover.svg");
+.socials__item-icon-vk .socials__link:hover:before {
+    opacity: 1;
+}
+  
+ .socials__item-icon-vk .socials__link:hover:after {
+    opacity: 0;
 }
 
-.socials__item-icon-insta .socials__link {
-    background-image: url("img/instagram.svg");
+ .socials__item-icon-fb .socials__link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -66px;
+    transition: .3s;
 }
 
-.socials__item-icon-insta .socials__link:hover {
-    background-image: url("img/instagram-hover.svg");
+.socials__item-icon-fb .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -10px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.socials__item-icon-fb .socials__link:hover:before {
+    opacity: 1;
+}
+  
+ .socials__item-icon-fb .socials__link:hover:after {
+    opacity: 0;
+}
+
+.socials__item-icon-insta .socials__link::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -178px;
+    transition: .3s;
+}
+
+.socials__item-icon-insta .socials__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../img/sprites.png) -10px -122px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.socials__item-icon-insta .socials__link:hover:before {
+    opacity: 1;
+}
+  
+ .socials__item-icon-insta .socials__link:hover:after {
+    opacity: 0;
 }

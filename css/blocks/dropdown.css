@@ -4,7 +4,9 @@
 }
 
 .dropdown:hover .dropdown__menu {
-    display: block;
+    left: initial;
+    opacity: 1;
+    right: 0;
 }
 
 .dropdown__menu {
@@ -12,13 +14,14 @@
     background: rgba(237, 237, 237, 1);
     border-radius: 5px;
     border: none;
+    opacity: 0;
     padding: 12px 19px;
     width: 160px;
     top: 100%;
     margin-top: 10px;
-    margin-left: -61px;
     text-align: left;
-    display: none;
+    left: -9999px;
+    transition: opacity .3s;
 }
 
 .dropdown__menu::before {

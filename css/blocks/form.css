@@ -7,7 +7,7 @@
     flex: 1;
     margin-right: 30px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid transparent;
     background: #fff;
     padding: 20px 30px;
     font-size: 18px;
@@ -16,7 +16,7 @@
 
 .form__input:focus {
     outline: none;
-    border: 1px solid rgba(143, 0, 255, 1);
+    border-color: rgba(143, 0, 255, 1);
 }
 
 .form__input::placeholder {
@@ -29,6 +29,8 @@
 
 .form__input--textarea {
     height: 235px;
+    resize: none;
+    padding-top: 29px;
 }
 
 .form__controls {

@@ -7,5 +7,5 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url(../../img/top-backgr.png) center bottom / cover no-repeat;
+    background: url(/../../img/top-backgr.png) center bottom / cover no-repeat;
 }
